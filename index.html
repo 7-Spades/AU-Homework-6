@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
     <title>Weather Dashboard</title>
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row text-center">
-                <div class="col">
+                <div class="col-sm mb-4 bg-info text-white">
                     <h1>Weather Dashboard</h1>
                 </div>
             </div>
@@ -21,8 +22,8 @@
  
 <div class="container">
     <div class="row">
-        <div class="col-sm-3">
-            <div class="card">
+        <div class="col-sm-12 col-md-12 col-lg-3">
+            <div class="card mb-4">
                 <div class="card-body">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" id="searcher" placeholder="City Location" aria-label="City Location" aria-describedby="City Location">
@@ -45,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm">
+        <div class="col-sm col-md col-lg">
             <div class="card mb-4">
                 <div class="card-body">
                     <h3 class="card-title" id="city"></h3>
@@ -60,35 +61,35 @@
                         <h4 class="card-header">5-Day Forecast</h4>
                         <div class="card-group">
                             <div class="card">
-                              <div class="card-body">
+                              <div class="card-body bg-info text-white">
                                 <h6 class="card-title" id="date00"></h6>
                                 <p class="card-text" id="temp00"></p>
                                 <p class="card-text" id="humid00"></p>
                               </div>
                             </div>
                             <div class="card">
-                              <div class="card-body">
+                              <div class="card-body bg-info text-white">
                                 <h6 class="card-title" id="date01"></h6>
                                 <p class="card-text" id="temp01"></p>
                                 <p class="card-text" id="humid01"></p>
                               </div>
                             </div>
                             <div class="card">
-                              <div class="card-body">
+                              <div class="card-body bg-info text-white">
                                 <h6 class="card-title" id="date02"></h6>
                                 <p class="card-text" id="temp02"></p>
                                 <p class="card-text" id="humid02"></p>
                               </div>
                             </div>
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body bg-info text-white">
                                   <h6 class="card-title" id="date03"></h6>
                                   <p class="card-text" id="temp03"></p>
                                   <p class="card-text" id="humid03"></p>
                                 </div>
                               </div>
                               <div class="card">
-                                <div class="card-body">
+                                <div class="card-body bg-info text-white">
                                   <h6 class="card-title" id="date04"></h6>
                                   <p class="card-text" id="temp04"></p>
                                   <p class="card-text" id="humid04"></p>
